@@ -44,9 +44,9 @@ Achieved functional sparse ruler generator for small integer inputs.
 
 ## LICENSE  
 
-License Name: MIT License  
-o Role of this license: Permits free use, modification and distribution while requiring only copyright notice and license preservation. 
-o **Full license text**: [LICENSE](LICENSE)
+- License Name: MIT License  
+- Role of this license: Permits free use, modification and distribution while requiring only copyright notice and license preservation. 
+- **Full license text**: [LICENSE](LICENSE)
 
 ---
 
