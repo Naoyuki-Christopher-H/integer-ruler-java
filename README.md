@@ -52,7 +52,7 @@ o **Full license text**: [LICENSE](LICENSE)
 
 ## REFERENCES  
 
-If you reference my projects, please use the following format:
+If you reference my project, please use the following format:
 
 > Author(s). (Year). *Title of Repository*. Available at: \[URL] (Accessed: \[Date]).
 
