@@ -1,42 +1,67 @@
 # Minimal Mark Ruler Calculator  
 
-A Java program that finds the fewest number of marks needed on a ruler to measure all integer distances from 1 to X using only the differences between pairs of marks.  
+Minimal Mark Ruler Calculator: A Java program that calculates the minimal number of marks needed on a ruler to measure all integer distances from 1 to X using differences between mark pairs.  
 
 ---
 
 ## OBJECTIVE  
-**Purpose**:  
-This project solves the problem of constructing a minimal ruler where the distances between any pair of marks can measure all integer lengths from 1 to X. Unlike traditional rulers, it optimizes for the least number of marks while maintaining full functionality.  
 
-- **Date of creation**: 2025-04 
-- **Technical**:  
-  - Java  
-- **Laboratory**:  
-  - Recursive backtracking  
-- **Installation Instructions**:  
-  1. Ensure Java is installed (`java -version`).  
-  2. Compile: `javac Solutions/Solutions.java`.  
-  3. Run: `java Solutions.Solutions`.  
-- **GitHub Repo**: [LINK](https://github.com/Naoyuki-Christopher-H/integer-ruler-java.git) 
-  - **Implemented** a backtracking algorithm to explore mark combinations.  
-  - **Achieved** optimal mark counts for inputs up to X = 6 (e.g., 4 marks for X = 6).  
+**PURPOSE**  
+This project implements an algorithm to construct optimal sparse rulers - rulers that use the fewest possible marks while still being able to measure all integer lengths from 1 to a target length X through differences between mark pairs.  
+
+o Date of creation: 2025-04 
+o Technical:  
+   - Java  
+o Laboratory:  
+   - Recursive backtracking  
+   - Combinatorial optimization  
+o Installation Instructions:  
+   1. Verify Java installation: `java -version`  
+   2. Compile: `javac Solutions/Solutions.java`  
+   3. Execute: `java Solutions.Solutions`  
+o GitHub Repo: https://github.com/Naoyuki-Christopher-H/integer-ruler-java.git
+   - Implemented recursive backtracking algorithm to explore mark combinations  
+   - Achieved optimal solution for X=6 (4 marks: [0,1,4,6])  
+o Key Features:  
+   - Finds minimal mark count for any positive integer X  
+   - Uses efficient backtracking approach  
+   - Clean Allman-style Java implementation  
+   - Fully commented code for clarity  
+o File Structure:  
+```
+Solutions/
+   Solutions.java  // Main algorithm implementation
+```
 
 ---
 
 ## REASON  
-**Developed** to explore combinatorial optimization and efficient problem-solving in Java.  
-**Demonstrated** recursive backtracking techniques for constrained search problems.  
+
+Developed to demonstrate combinatorial problem-solving techniques in Java.  
+Achieved functional sparse ruler generator for small integer inputs.  
 
 ---
 
 ## LICENSE  
-**License Name**: MIT License  
-- **Role of this license**: Permits free use, modification, and distribution with only requiring preservation of copyright and license notices.  
-- **Full license text**: [LICENSE](LICENSE)
+
+License Name: MIT License  
+o Role of this license: Permits free use, modification and distribution while requiring only copyright notice and license preservation. 
+o **Full license text**: [LICENSE](LICENSE)
 
 ---
 
 ## REFERENCES  
-1. Inspired by mathematical problems related to **difference covers** and **minimal ruler constructions**.  
+
+If you reference my projects, please use the following format:
+
+> Author(s). (Year). *Title of Repository*. Available at: \[URL] (Accessed: \[Date]).
+
+---
+
+**DISCLAIMER**  
+
+UNDER NO CIRCUMSTANCES SHOULD IMAGES OR EMOJIS BE INCLUDED DIRECTLY IN THE README FILE. ALL VISUAL MEDIA, INCLUDING SCREENSHOTS AND IMAGES OF THE APPLICATION, MUST BE STORED IN A DEDICATED FOLDER WITHIN THE PROJECT DIRECTORY. THIS FOLDER SHOULD BE CLEARLY STRUCTURED AND NAMED ACCORDINGLY TO INDICATE THAT IT CONTAINS ALL VISUAL CONTENT RELATED TO THE APPLICATION (FOR EXAMPLE, A FOLDER NAMED IMAGES, SCREENSHOTS, OR MEDIA).  
+
+I AM NOT LIABLE OR RESPONSIBLE FOR ANY MALFUNCTIONS, DEFECTS, OR ISSUES THAT MAY OCCUR AS A RESULT OF COPYING, MODIFYING, OR USING THIS SOFTWARE. IF YOU ENCOUNTER ANY PROBLEMS OR ERRORS, PLEASE DO NOT ATTEMPT TO FIX THEM SILENTLY OR OUTSIDE THE PROJECT. INSTEAD, KINDLY SUBMIT A PULL REQUEST OR OPEN AN ISSUE ON THE CORRESPONDING GITHUB REPOSITORY, SO THAT IT CAN BE ADDRESSED APPROPRIATELY BY THE MAINTAINERS OR CONTRIBUTORS.  
 
 ---
