@@ -9,25 +9,25 @@ Minimal Mark Ruler Calculator: A Java program that calculates the minimal number
 **PURPOSE**  
 This project implements an algorithm to construct optimal sparse rulers - rulers that use the fewest possible marks while still being able to measure all integer lengths from 1 to a target length X through differences between mark pairs.  
 
-o Date of creation: 2025-04 
-o Technical:  
+- Date of creation: 2025-04 
+- Technical:  
    - Java  
-o Laboratory:  
+- Laboratory:  
    - Recursive backtracking  
    - Combinatorial optimization  
-o Installation Instructions:  
+- Installation Instructions:  
    1. Verify Java installation: `java -version`  
    2. Compile: `javac Solutions/Solutions.java`  
    3. Execute: `java Solutions.Solutions`  
-o GitHub Repo: https://github.com/Naoyuki-Christopher-H/integer-ruler-java.git
+- GitHub Repo: https://github.com/Naoyuki-Christopher-H/integer-ruler-java.git
    - Implemented recursive backtracking algorithm to explore mark combinations  
    - Achieved optimal solution for X=6 (4 marks: [0,1,4,6])  
-o Key Features:  
+- Key Features:  
    - Finds minimal mark count for any positive integer X  
    - Uses efficient backtracking approach  
    - Clean Allman-style Java implementation  
    - Fully commented code for clarity  
-o File Structure:  
+- File Structure:  
 ```
 Solutions/
    Solutions.java  // Main algorithm implementation
